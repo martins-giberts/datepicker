@@ -32,6 +32,7 @@ module.exports = {
   },
   rules: {
     'object-curly-spacing': ['error', 'never'],
+    'semi': ['error', 'never'],
     // https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules
     'react/jsx-filename-extension': [1, { 'extensions': ['.js'] }],
   }

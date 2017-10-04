@@ -1,9 +1,19 @@
 {
   "presets": [
     "stage-1",
-    "react"
+    "react",
+    "flow",
+    "minify"
   ],
   "plugins": [
     "transform-decorators-legacy"
-  ]
+  ],
+  "env": {
+    "test": {
+      "presets": [
+        ["es2015"],
+        "react"
+      ]
+    }
+  }
 }
